@@ -1,4 +1,3 @@
-import Navbar from "./Component/Navbar";
 import Home from "./page/Home";
 import CurrencyConverter from "./page/CurrencyConverter";
 import CryptoCurrency from "./page/CryptoCurrency";
@@ -10,17 +9,17 @@ import {
 
 function App() {
   return (
-    <>
+    <div>
     <Router> 
-         <Navbar/>
              <Switch>
+                 <Route path="/" exact component={Home}/>
                  <Route path="/Home" exact component={Home}/>
                  <Route path="/CurrencyConverter" exact component={CurrencyConverter}/>
                  <Route path="/CryptoCurrency" exact component={CryptoCurrency}/> 
              </Switch>
   </Router>
     
-   </>
+   </div>
   );
 }
 
