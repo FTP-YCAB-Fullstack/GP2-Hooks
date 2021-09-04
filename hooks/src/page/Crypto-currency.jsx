@@ -1,6 +1,6 @@
 import Navbar from "../Component/Navbar";
 
-function CryptoCurrency(){
+function Crypto(){
     return(
         <div>
             <Navbar />
@@ -10,4 +10,4 @@ function CryptoCurrency(){
     )
 }
 
-export default CryptoCurrency;
+export default Crypto;

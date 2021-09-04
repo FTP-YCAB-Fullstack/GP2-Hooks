@@ -1,6 +1,6 @@
 import Navbar from "../Component/Navbar";
 
-function CurrencyConverter(){
+function Converter(){
     return(
         <div>
             <Navbar />
@@ -10,4 +10,4 @@ function CurrencyConverter(){
     )
 }
 
-export default CurrencyConverter;
+export default Converter;

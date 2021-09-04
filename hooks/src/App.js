@@ -1,6 +1,7 @@
 import Home from "./page/Home";
-import CurrencyConverter from "./page/CurrencyConverter";
-import CryptoCurrency from "./page/CryptoCurrency";
+import Converter from "./page/Converter-currency.jsx";
+import Crypto from "./page/Crypto-currency.jsx";
+import SebelumHome from "./page/HomeBeforeLogIn";
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,10 +13,11 @@ function App() {
     <div>
     <Router> 
              <Switch>
-                 <Route path="/" exact component={Home}/>
+                 <Route path="/" exact component={SebelumHome}/>
                  <Route path="/Home" exact component={Home}/>
-                 <Route path="/CurrencyConverter" exact component={CurrencyConverter}/>
-                 <Route path="/CryptoCurrency" exact component={CryptoCurrency}/> 
+                 <Route path="/Converter" exact component={Converter}/>
+                 <Route path="/Crypto" exact component={Crypto}/> 
+                 <Route path="*"><h1>404 Not Found</h1></Route>
              </Switch>
   </Router>
     
