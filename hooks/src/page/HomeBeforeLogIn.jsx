@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-function SebelumHome(){
+function HomeBeforeLogIn(){
     return(
         <div>
             <p>Ini Home Sebelum Log In</p>
@@ -9,4 +9,4 @@ function SebelumHome(){
     )
 }
 
-export default SebelumHome;
+export default HomeBeforeLogIn;

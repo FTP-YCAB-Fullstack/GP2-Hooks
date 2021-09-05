@@ -12,11 +12,13 @@
     border: 1px solid none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(175, 175, 175);
 }
+
 .logo{
     margin-left: 1rem;
     margin-top: -1.6rem;
-}
+} 
 .logo a{
     text-decoration: none;
     color: white;
@@ -24,10 +26,14 @@
 .list li{
     display: inline;
     margin: 0 1rem;
+    /* margin: 1 1rem; */
+    /* margin-right: 2rem; */
 }
 .list li a{
     text-decoration: none;
     color: white;
+    font-size: 13px;
+    /* margin: 1rem 1rem; */
 }
 .list {
     margin-top: 1rem;

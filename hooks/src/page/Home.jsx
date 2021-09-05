@@ -1,12 +1,19 @@
 import Navbar from "../Component/Navbar";
+import '../styles/stylepage.css'
 
 function Home (){
     return(
-        <div>
-            <Navbar />
-            <h1>Ini Home</h1>
-            <h4>Hello World</h4>
+    <div>
+        <Navbar/>
+        <div className="pagemain">
+            <div className="bodymain">
+                <div className="mainconten">
+                    <h1>INI HALAMAN HOME</h1>
+                    <h3>anjing</h3>
+                </div>
+            </div>
         </div>
+    </div>
     )
 }
 

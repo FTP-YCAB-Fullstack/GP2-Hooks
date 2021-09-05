@@ -1,0 +1,18 @@
+.pagemain{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.bodymain{
+    height: 720px;
+    background-color: rgb(105, 105, 226);
+    width: 98%;
+    /* display: flex;
+    justify-content: center; */
+
+}
+.mainconten{
+    /* background-color: white; */
+    color: white;
+}
