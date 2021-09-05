@@ -9,7 +9,7 @@ function Crypto(){
             <div className="bodymain">
                 <div className="mainconten">
                    <h1>INI HALAMAN CRYPTO</h1>
-                   <h3>anjing</h3>
+                   <h3>Hello World</h3>
                 </div>
             </div>
         </div>

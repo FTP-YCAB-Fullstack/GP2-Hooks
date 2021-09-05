@@ -4,7 +4,6 @@
     background-color: #ABB6D4;
 }
 .navbarbefore{
-    /* background-image: url(../assets/logo.png); */
     display: flex;
     justify-content: space-between;   
     background-color: #C5D3EE;
@@ -34,14 +33,11 @@
 .listbefore li{
     display: inline;
     margin: 0 1rem;
-    /* margin: 1 1rem; */
-    /* margin-right: 2rem; */
 }
 .listbefore li a{
     text-decoration: none;
     color: #3A5D70;
     font-size: 13px;
-    /* margin: 1rem 1rem; */
 }
 .listbefore{
     margin-top: 1rem;
