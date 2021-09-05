@@ -9,10 +9,10 @@ function Login(){
     }
     
     return (
-    <>
-    <h1>Ini Halaman Login</h1>
-    <button onClick={AccesToken}>Get Started</button>
-    </>
+    <div>     
+        <h1>Ini Halaman Login</h1>
+        <button onClick={AccesToken}>Get Started</button>
+    </div>
 )}
 
 export default Login;

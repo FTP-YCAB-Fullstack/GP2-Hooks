@@ -1,10 +1,14 @@
 import { Link } from 'react-router-dom'
+import '../styles/stylebeforepage.css'
+import NavbarBefore from '../Component/NavbarBefore.jsx';
 
 function HomeBeforeLogIn(){
     return(
         <div>
-            <p>Ini Home Sebelum Log In</p>
-            <p><Link className='link' to="/Home">Home</Link></p>
+            <NavbarBefore/>
+
+            <h1>Hello World</h1>
+            <Link to="/home"><p>ke Home</p></Link>
         </div>
     )
 }

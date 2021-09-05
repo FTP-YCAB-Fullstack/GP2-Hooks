@@ -1,9 +1,10 @@
-.body{
+.bodybefore{
     display: flex;
     justify-content: center;
     background-color: #ABB6D4;
 }
-.navbar{
+.navbarbefore{
+    /* background-image: url(../assets/logo.png); */
     display: flex;
     justify-content: space-between;   
     background-color: #C5D3EE;
@@ -15,26 +16,33 @@
     border-bottom: 1px solid rgb(175, 175, 175);
 }
 
-.logo{
+.logobefore{
+    display: flex;
+    flex-direction: row;
     margin-left: 1rem;
-    margin-top: -1.6rem;
 } 
-.logo a{
+.logobefore img{
+    width: 25px;
+    margin-top: 1.1rem;
+    margin-right: 5px;
+}
+.logobefore a{
     text-decoration: none;
     color: #3A5D70;
 }
-.list li{
+
+.listbefore li{
     display: inline;
     margin: 0 1rem;
     /* margin: 1 1rem; */
     /* margin-right: 2rem; */
 }
-.list li a{
+.listbefore li a{
     text-decoration: none;
     color: #3A5D70;
     font-size: 13px;
     /* margin: 1rem 1rem; */
 }
-.list {
+.listbefore{
     margin-top: 1rem;
 }
