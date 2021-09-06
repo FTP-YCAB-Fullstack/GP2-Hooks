@@ -4,8 +4,8 @@ function Navbar (){
     return(
         <div>
             <li><Link to="/Home">Home</Link></li>
-            <li><Link to="/CurrencyConverter">Caculator</Link></li>
-            <li><Link to="/CryptoCurrency">Crypto Currenty</Link></li>
+            <li><Link to="/CurrencyConverter">Calculator</Link></li>
+            <li><Link to="/CryptoCurrency">Crypto Currency</Link></li>
         </div>
     )
 }

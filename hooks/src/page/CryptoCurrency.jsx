@@ -1,13 +1,13 @@
+import CoinsAPI from "../Component/CoinsAPI";
 import Navbar from "../Component/Navbar";
 
-function CryptoCurrency(){
+function CurrencyConverter(){
     return(
         <div>
             <Navbar />
-            <h1>Ini Crypto Currency</h1>
-            <h4>Hello World</h4>
+            <CoinsAPI />
         </div>
     )
 }
 
-export default CryptoCurrency;
+export default CurrencyConverter;

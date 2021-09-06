@@ -6,6 +6,7 @@ import {
   Switch,
   Route 
 } from "react-router-dom";
+import CoinsAPI from "./Component/CoinsAPI";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Router> 
              <Switch>
                  <Route path="/" exact component={Home}/>
+                 <Route path="/Coins" exact component={CoinsAPI}/>
                  <Route path="/Home" exact component={Home}/>
                  <Route path="/CurrencyConverter" exact component={CurrencyConverter}/>
                  <Route path="/CryptoCurrency" exact component={CryptoCurrency}/> 
