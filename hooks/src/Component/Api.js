@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React , {useEffect , useState} from 'react'
-import CurrencyConverter from '../page/CurrencyConverter'
+import Converter from '../page/Converter-currency'
 import '../currency.css'
 
 function Api() {
