@@ -1,23 +1,23 @@
-import Home from "./page/Home";
-import CurrencyConverter from "./page/CurrencyConverter";
-import CryptoCurrency from "./page/CryptoCurrency";
+import Home from "./page/Home.jsx";
+import Converter from "./page/Converter-currency.jsx";
+import Crypto from "./page/Crypto-currency.jsx";
+import React from "react"
 import {
   BrowserRouter as Router,
   Switch,
   Route 
 } from "react-router-dom";
-import CoinsAPI from "./Component/CoinsAPI";
 
 function App() {
   return (
-    <div>
+    <div ClassName="App">
     <Router> 
              <Switch>
                  <Route path="/" exact component={Home}/>
-                 <Route path="/Coins" exact component={CoinsAPI}/>
-                 <Route path="/Home" exact component={Home}/>
-                 <Route path="/CurrencyConverter" exact component={CurrencyConverter}/>
-                 <Route path="/CryptoCurrency" exact component={CryptoCurrency}/> 
+                 <Route exact path="/Home" component={Home}/>
+                 <Route exact path="/Converter" component={Converter}/>
+                 <Route exact path="/Crypto" component={Crypto}/> 
+                 <Route exact path="*"><h1>404 Not Found</h1></Route>
              </Switch>
   </Router>
     
