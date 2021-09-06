@@ -46,7 +46,7 @@ function Api() {
             {useData.map(data =>(
                 <option key={data} value={data} >{data}</option>
             ))}
-             </select>
+             </select><span> to </span>
              <select value={second} onChange={e => setSecond(e.target.value)} >
             {useData.map(data =>(
                 <option key={data} value={data} >{data}</option>

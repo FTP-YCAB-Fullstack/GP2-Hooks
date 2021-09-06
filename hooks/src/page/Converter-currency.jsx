@@ -1,4 +1,5 @@
 import Navbar from "../Component/Navbar";
+import Api from "../Component/Api";
 import '../styles/stylepage.css'
 
 function Converter(){
@@ -8,8 +9,7 @@ function Converter(){
             <div className="pagemain">
                 <div className="bodymain">
                     <div className="mainconten">
-                        <h1>INI HALAMAN CONVETER</h1>
-                        <h3>Hello World</h3>
+                        <Api />
                     </div>
                 </div>
             </div>
