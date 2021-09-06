@@ -1,20 +1,20 @@
 import Navbar from "../Component/Navbar";
+import CoinsAPI from "../Component/CoinsAPI";
 import '../styles/stylepage.css'
 
-function Home (){
+function Crypto(){
     return(
     <div>
-        <Navbar/>
+          <Navbar/>
         <div className="pagemain">
             <div className="bodymain">
                 <div className="mainconten">
-                    <h1>INI HALAMAN HOME</h1>
-                    <h3>Hello World</h3>
+                    <CoinsAPI />
                 </div>
             </div>
         </div>
-    </div>
+     </div>
     )
 }
 
-export default Home;
+export default Crypto;

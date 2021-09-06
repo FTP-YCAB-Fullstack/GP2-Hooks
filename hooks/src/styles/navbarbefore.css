@@ -1,0 +1,44 @@
+.bodybefore{
+    display: flex;
+    justify-content: center;
+    background-color: #ABB6D4;
+}
+.navbarbefore{
+    display: flex;
+    justify-content: space-between;   
+    background-color: #C5D3EE;
+    width: 98%;
+    margin-top: .5rem;
+    border: 1px solid none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.logobefore{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+} 
+.logobefore img{
+    width: 25px;
+    margin-top: 1.1rem;
+    margin-right: 5px;
+}
+.logobefore a{
+    text-decoration: none;
+    color: #3A5D70;
+}
+
+.listbefore li{
+    display: inline;
+    margin: 0 1rem;
+}
+.listbefore li a{
+    text-decoration: none;
+    color: #3A5D70;
+    font-size: 13px;
+}
+.listbefore{
+    margin-top: 1rem;
+}

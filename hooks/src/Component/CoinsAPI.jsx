@@ -3,7 +3,6 @@ import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { setCoins } from "../redux/actions/coinAction";
 import CoinComponent from "./CoinComponent";
-import Navbar from "./Navbar";
 
 const CoinsAPI = () => {
   const coins = useSelector((state) => state);
