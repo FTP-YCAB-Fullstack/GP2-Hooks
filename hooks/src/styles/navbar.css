@@ -1,0 +1,37 @@
+.body{
+    display: flex;
+    justify-content: center;
+    background-color: #ABB6D4;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;   
+    background-color: #C5D3EE;
+    width: 98%;
+    margin-top: .5rem;
+    border: 1px solid none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.logo{
+    margin-left: 1rem;
+    margin-top: -1.6rem;
+} 
+.logo a{
+    text-decoration: none;
+    color: #3A5D70;
+}
+.list li{
+    display: inline;
+    margin: 0 1rem;
+}
+.list li a{
+    text-decoration: none;
+    color: #3A5D70;
+    font-size: 13px;
+}
+.list {
+    margin-top: 1rem;
+}
