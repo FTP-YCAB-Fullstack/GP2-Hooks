@@ -8,19 +8,6 @@ const CoinsAPI = () => {
   const coins = useSelector((state) => state);
   const dispatch = useDispatch();
 
-  // const fetchCoins = () => async () => {
-  //   const response = await axios
-  //     .get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=idr&order=market_cap_desc&per_page=100&page=1&sparkline=false")
-  //     .catch((error) => {
-  //       console.log("Error", error);
-  //     });
-  //   dispatch(setCoins(response.data));
-  // };
-
-  // useEffect(() => {
-  //   fetchCoins();
-  // }, []);
-
   useEffect(() => {
     axios
       .get(

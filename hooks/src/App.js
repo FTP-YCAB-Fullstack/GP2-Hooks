@@ -2,6 +2,9 @@ import Home from "./page/Home.jsx";
 import Converter from "./page/Converter-currency.jsx";
 import Crypto from "./page/Crypto-currency.jsx";
 import React from "react"
+import PageBeforeLogin from "./page/PageBeforeLogin.jsx"
+import Login from "./page/Login.jsx"
+import PrivateRoute from "./Component/PrivateRoute"
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,11 +16,12 @@ function App() {
     <div ClassName="App">
     <Router> 
              <Switch>
-                 <Route path="/" exact component={Home}/>
-                 <Route exact path="/Home" component={Home}/>
-                 <Route exact path="/Converter" component={Converter}/>
-                 <Route exact path="/Crypto" component={Crypto}/> 
-                 <Route exact path="*"><h1>404 Not Found</h1></Route>
+                <Route path="/" exact component={PageBeforeLogin} />
+                <PrivateRoute path="/Home" exact component={Home} />
+                <Route path="/login" exact component={Login} />
+                <PrivateRoute path="/converter"exact component={Converter}/>
+                <PrivateRoute path="/crypto" exact component={Crypto}/>
+                <Route path="*" exact ><h1>404 Page Not Found</h1></Route>
              </Switch>
   </Router>
     

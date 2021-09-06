@@ -1,6 +1,5 @@
 import Navbar from "../Component/Navbar";
 import CoinsAPI from "../Component/CoinsAPI";
-import '../styles/stylepage.css'
 
 function Crypto(){
     return(
