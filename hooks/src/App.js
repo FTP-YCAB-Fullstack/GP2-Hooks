@@ -21,6 +21,7 @@ function App() {
                 <Route path="/login" exact component={Login} />
                 <PrivateRoute path="/converter"exact component={Converter}/>
                 <PrivateRoute path="/crypto" exact component={Crypto}/>
+                <Route path="*" exact ><h1>404 Page Not Found</h1></Route>
              </Switch>
   </Router>
     
