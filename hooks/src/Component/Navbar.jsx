@@ -3,11 +3,10 @@ import '../styles/navbar.css'
 
 function Navbar (){
     return(
-        <div className="body">
         <div className="navbar">
-            <div className="logo">
-                <Link to="/Home"><img src="" alt="" /></Link>
-                <Link to="/Home"><h3>Currency</h3></Link>
+        <div className="handle-nav">
+            <div className="title">
+                <Link to="/Home" className="a"><h3>Currency</h3></Link>
             </div>
             <div className="list">
             <li><Link className="link" to="/Home">Home</Link></li>
