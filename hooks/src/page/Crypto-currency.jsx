@@ -1,4 +1,5 @@
 import Navbar from "../Component/Navbar";
+import CoinsAPI from "../Component/CoinsAPI";
 import '../styles/stylepage.css'
 
 function Crypto(){
@@ -8,8 +9,7 @@ function Crypto(){
         <div className="pagemain">
             <div className="bodymain">
                 <div className="mainconten">
-                   <h1>INI HALAMAN CRYPTO</h1>
-                   <h3>Hello World</h3>
+                    <CoinsAPI />
                 </div>
             </div>
         </div>

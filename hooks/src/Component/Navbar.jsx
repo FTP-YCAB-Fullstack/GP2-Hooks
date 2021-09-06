@@ -11,11 +11,11 @@ function Navbar (){
             </div>
             <div className="list">
             <li><Link className="link" to="/Home">Home</Link></li>
-            <li><Link className="link" to="/Converter">Converter</Link></li>
-            <li><Link className="link" to="/Crypto">Crypto List</Link></li>
+            <li><Link className="link" to="/Converter">Calculator</Link></li>
+            <li><Link className="link" to="/Crypto">Crypto Currency</Link></li>
             </div>
         </div>
-        </div>
+    </div>
     )
 }
 
