@@ -5,7 +5,7 @@ function Login(){
 
     const AccesToken = () => {
         localStorage.setItem("access", true)
-        history.push("/home")
+        history.replace("/home")
     }
     
     return (

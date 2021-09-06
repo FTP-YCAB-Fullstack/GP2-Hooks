@@ -23,7 +23,7 @@ function App() {
     <Router> 
              <Switch>
                  <Route exact path="/" component={HomeBeforeLogIn}/>
-                 <Route exact path="/Home" component={Home}/>
+                 <PrivateRoute exact path="/Home" component={Home}/>
                  <Route exact path="/Converter" component={Converter}/>
                  <Route exact path="/Crypto" component={Crypto}/> 
                  <Route exact path="/Login" component={Login}/> 
