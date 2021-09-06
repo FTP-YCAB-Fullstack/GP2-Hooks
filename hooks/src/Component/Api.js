@@ -1,12 +1,14 @@
 import axios from 'axios'
 import React , {useEffect , useState} from 'react'
+import CurrencyConverter from '../page/CurrencyConverter'
+import '../currency.css'
 
 function Api() {
     const [useData,setData] = useState([])
     const [first, setFirst] = useState("")
     const [second, setSecond] = useState("")
     const [third , setThird] = useState("")
-    const [rate,setRate]= useState([])
+    const [rate,setRate]= useState("")
     const [hasil,setHasil] = useState("")
     useEffect(() => 
     {
@@ -30,7 +32,7 @@ function Api() {
         })
         .then ((response) => {
             // console.log(response)
-                setRate(response.data)
+                setRate(response.data[`${first}_${second}`])
         })
         .catch ((error)=>{
             console.log(error)
@@ -38,9 +40,12 @@ function Api() {
     }
 
     return (
-        
-        <div>
+        <div class="main">
+        <div class="current">
+            <div class="container">
             <p>Currency Exchange</p>
+                <p>{third} {first}= {rate * +third} {second}</p>
+                <div>
             <input type="number" value={third} onChange={e => setThird(e.target.value)} ></input>
             <select value={first} onChange={e => setFirst(e.target.value)} >
             {useData.map(data =>(
@@ -50,10 +55,12 @@ function Api() {
              <select value={second} onChange={e => setSecond(e.target.value)} >
             {useData.map(data =>(
                 <option key={data} value={data} >{data}</option>
-            ))}
+                ))}
              </select>
+             </div>
+                </div>
             <button onClick={()=> {getRate(first,second)}}> Convert </button>
-            <p>{third} {first}= {rate[`${first}_${second}`] * +third } {second}</p>
+        </div>
         </div>
     )
 }
