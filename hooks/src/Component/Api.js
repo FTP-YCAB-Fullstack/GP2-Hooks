@@ -1,6 +1,5 @@
 import axios from 'axios'
 import React , {useEffect , useState} from 'react'
-import CurrencyConverter from '../page/CurrencyConverter'
 import '../currency.css'
 
 function Api() {
@@ -40,26 +39,42 @@ function Api() {
     }
 
     return (
+        <div class="body">
         <div class="main">
         <div class="current">
             <div class="container">
-            <p>Currency Exchange</p>
-                <p>{third} {first}= {rate * +third} {second}</p>
-                <div>
-            <input type="number" value={third} onChange={e => setThird(e.target.value)} ></input>
-            <select value={first} onChange={e => setFirst(e.target.value)} >
-            {useData.map(data =>(
-                <option key={data} value={data} >{data}</option>
-            ))}
-             </select><span> to </span>
-             <select value={second} onChange={e => setSecond(e.target.value)} >
-            {useData.map(data =>(
-                <option key={data} value={data} >{data}</option>
-                ))}
-             </select>
+                <h1>Currency Exchange</h1>
+                <div class="">
+                    <p class="hasil">{third} {first}= {rate * +third} {second}</p>
+                </div>      
+                <div >
+                    <div class="contInput">
+                        <div>
+                            <input  type="number" value={third} onChange={e => setThird(e.target.value)} placeholder="Input number "></input>
+                        </div>
+                    </div>
+                        <div class="container2">
+                            <div class="container3">
+                                <span>From </span>
+                                <select class="select" value={first} onChange={e => setFirst(e.target.value)} >
+                                {useData.map(data =>(
+                                    <option key={data} value={data} >{data}</option>
+                                    ))}
+                                </select>
+                            </div>
+                            <div class="container3">
+                                <span> To </span>
+                                <select class="select" value={second} onChange={e => setSecond(e.target.value)} >
+                                {useData.map(data =>(
+                                    <option key={data} value={data} >{data}</option>
+                                    ))}
+                                </select>
+                            </div>                   
+                        </div>
              </div>
                 </div>
-            <button onClick={()=> {getRate(first,second)}}> Convert </button>
+            <button class="button button1" onClick={()=> {getRate(first,second)}}> Convert </button>
+        </div>
         </div>
         </div>
     )
