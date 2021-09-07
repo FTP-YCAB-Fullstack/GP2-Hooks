@@ -1,6 +1,8 @@
 import axios from 'axios'
 import React , {useEffect , useState} from 'react'
 import '../currency.css'
+import Logoconvert from "../assets/logoconverts.png"
+import Footer from "./Footer"
 
 function Api() {
     const [useData,setData] = useState([])
@@ -39,28 +41,57 @@ function Api() {
     }
 
     return (
-        <div class="main">
-        <div class="current">
-            <div class="container">
-            <p>Currency Exchange</p>
-                <p>{third} {first}= {rate * +third} {second}</p>
-                <div>
-            <input type="number" value={third} onChange={e => setThird(e.target.value)} ></input>
-            <select value={first} onChange={e => setFirst(e.target.value)} >
-            {useData.map(data =>(
-                <option key={data} value={data} >{data}</option>
-            ))}
-             </select><span> to </span>
-             <select value={second} onChange={e => setSecond(e.target.value)} >
-            {useData.map(data =>(
-                <option key={data} value={data} >{data}</option>
-                ))}
-             </select>
-             </div>
+        <div className="bodyconverter">
+        <div class="body">
+                <div className="titleconvert">
+                    <h1>Currency Exchange</h1>  
                 </div>
-            <button onClick={()=> {getRate(first,second)}}> Convert </button>
+
+            <div className="mainconvert">
+                <div className="inputform">
+                    <div class="contInput">
+                        <input  type="number" value={third} onChange={e => setThird(e.target.value)} placeholder="Input number "></input>
+                   </div>
+                   
+                 <div className="option">
+                   <div class="optionmenu1">
+                        <span>From </span>
+                        <select class="select" value={first} onChange={e => setFirst(e.target.value)} >
+                             {useData.map(data =>( <option key={data} value={data} >{data}</option>))}
+                        </select>
+                   </div>
+                   <div class="optionmenu2">
+                        <span> To </span>
+                        <select class="select" value={second} onChange={e => setSecond(e.target.value)} >
+                            {useData.map(data =>(<option key={data} value={data} >{data}</option>))}         
+                        </select>
+                    </div>
+                 </div>
+                </div>
+
+                <div className="panah">
+                    <img src={Logoconvert} alt=""/>
+                </div>
+
+                <div className="formresult">
+                    <div className="note">
+                        <h6>Result Exchange</h6>
+                        <span>note : </span>
+                    </div>
+                    <div className="pembungkus">
+                        <div className="boxresult">
+                            <p class="hasil">{third} {first}= {rate * +third} {second}</p>
+                        </div>
+                    </div>
+                </div>
+
         </div>
+                <div className="buttonsub">
+                    <button class="button" onClick={()=> {getRate(first,second)}}> Convert </button>
+                </div>
         </div>
+        <Footer />
+    </div>
     )
 }
 
