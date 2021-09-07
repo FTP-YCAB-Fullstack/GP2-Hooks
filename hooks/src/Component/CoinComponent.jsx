@@ -15,6 +15,7 @@ const CoinComponent = () => {
         coin.name.toLowerCase().includes(search.toLowerCase())
       );
     return (
+      
         <div>
         <div key={id}>
           <div>

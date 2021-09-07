@@ -1,5 +1,8 @@
 import Navbar from "../Component/Navbar";
-import Api from "../Component/Api";
+// import Api from "../Component/Api";
+import Api from "../Component/Api"
+import '../styles/stylepage.css'
+
 
 function Converter(){
     return(
