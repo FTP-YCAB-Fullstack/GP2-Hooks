@@ -2,6 +2,8 @@ import Navbar from "../Component/Navbar";
 import '../styles/stylepage.css'
 
 function Home (){
+    let myDate = new Date()
+    console.log(myDate)
     return(
     <div>
         <Navbar/>
