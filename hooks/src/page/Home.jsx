@@ -12,7 +12,7 @@ function Home (){
             <div className="bodyhome">
                     <div className="titlehome">
                         <h1>Currency is web with the <br></br> most accurate rate and <br></br>crypto info</h1>
-                        <h6>Beneficial exchange of crypto with 0.5% with commision</h6>
+                        <h6>Beneficial currency exchange with accurate rate</h6>
                         <Link className="btn1" to="/converter">Currency Exchange</Link>
                         <Link className="btn2" to="/crypto">Crypto List</Link>
                     </div>
