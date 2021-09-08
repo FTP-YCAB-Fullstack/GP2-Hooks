@@ -1,6 +1,6 @@
 import Navbar from "../Component/Navbar";
 import CoinsAPI from "../Component/CoinsAPI";
-import '../styles/stylepage.css'
+import ListNavCrypto from "../Component/Listnavcrypto"
 
 function Crypto(){
     return(
@@ -9,6 +9,7 @@ function Crypto(){
         <div className="pagemain">
             <div className="bodymain">
                 <div className="mainconten">
+                    <ListNavCrypto/>
                     <CoinsAPI />
                 </div>
             </div>

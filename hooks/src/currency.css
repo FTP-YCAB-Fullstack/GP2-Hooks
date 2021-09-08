@@ -1,105 +1,123 @@
-    .body{
-        display: flex;
-        justify-content: center;
-        width: inherit;
-        background-color: inherit;
-        height: inherit;
-        
-    }
-    .main{
-        font-family:'Open Sans Condensed', sans-serif;
-        width: 1000px;
-        min-width:250px;
-        height: 650px;
-        min-height: 250px;
-        margin: 15px auto;
-        position: relative;
-    }
-    .hasil{
-        font-size: 18px;
-    }
-    .current{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: inherit;
-        padding : 10px 16px; 
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border: black;
-    }
-    .contain{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .container{
-        padding: inherit;
-        
-    }
-    .container2{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .contInput{
-        display: flex;
-        justify-content: center;
-    }
-    .container3{
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-    }
-    .select {
-        /* appearance: none; */
-        background-color: white;
-        /* border: none; */
-        padding: 0 1em 0 0;
-        margin: 0;
-        width: 100%;
-        font-family: inherit;
-        font-size: inherit;
-        /* cursor: inherit; */
-        line-height: inherit;
-        /* width: px;
-        height: 40px; */
-    }
+.bodyconverter{
+    background-color: #d3d3d3;
+    width: 100%;
+    height: 400px;
+}
+.body{
+    background-color: #d3d3d3;
+}
 
-    p{
+.body .titleconvert h1{
+    /* display: flex;
+    justify-content: center; */
     text-align: center;
-    }
-
-    /* input, select { 
-    padding: 0;
-    margin: 0;
-    outline: none;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 16px;
-    } */
-
-    .button {
-        border: none;
-        color: white;
-        padding: 14px 28px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 2px 2px;
-        transition-duration: 0.4s;
-        cursor: pointer;
-    }
-    
-    .button1 {
-        background-color: white; 
-        color: black; 
-        border: 2px solid #4CAF50;
-    }
-      
-    .button1:hover {
-        background-color: #4CAF50;
-        color: white;
-    }
-
+}
+.body .buttonsub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainconvert{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.inputform{
+    width: 40%;
+    height: 150px;
+    border: 1px solid none;
+    margin: 1rem 1rem;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inputform .contInput input{
+    margin-left: .5rem;
+    width: 70%;
+}
+.formresult{
+    align-items: center;
+    width: 40%;
+    height: 150px;
+    border: 1px solid none;
+    margin: 1rem 1rem;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.formresult .pembungkus{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+.formresult .note{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    font-weight: 100;
+}
+.formresult .boxresult{
+    margin-top: .5rem;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+}
+.mainconvert .panah{
+    margin-top: 4rem;
+}
+.inputform .contInput{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.inputform .option{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.inputform .option .optionmenu1, .optionmenu2{
+    margin: 2px .5rem;
+}
+.body2{
+    /* margin-top: ; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: yellow; */
+    align-items: center;
+    font-family: sans-serif;
+}
+.body2 h1{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder
+}
+.body2 img{
+    margin-top: 2rem;
+}
+.buttonsub .btn1 {
+    font: inherit;
+    border: 1px solid #333;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    border-radius: 30px;
+  }
+  
+.buttonsub .btn1:hover {
+    font: inherit;
+    border: 1px solid #416079;
+    background-color: #416079;
+    color: rgb(255, 255, 255);
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    border-radius: 30px;
+}

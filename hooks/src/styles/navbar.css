@@ -1,37 +1,38 @@
-.body{
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.handle-nav{
+    background-color: #1e272e;
     display: flex;
-    justify-content: center;
-    background-color: #ABB6D4;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    margin-top: -.5rem;
+    margin-bottom: -.5rem;
+    /* position: fixed; */
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;   
-    background-color: #C5D3EE;
-    width: 98%;
-    margin-top: .5rem;
-    border: 1px solid none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom: 1px solid rgb(175, 175, 175);
+.handle-nav .title{
+    margin-left: 2rem;
+}
+.handle-nav .title a{
+    text-decoration: none;
+    color: white;
+}
+.handle-nav .list li{
+    display: inline;
+    margin: .5rem .5rem
+}
+.list li .link{
+    text-decoration: none;
+    color: white;
+    padding: .5rem .5rem;
+    font-size: 15px;
+    border-radius: 2px;
 }
 
-.logo{
-    margin-left: 1rem;
-    margin-top: -1.6rem;
-} 
-.logo a{
-    text-decoration: none;
-    color: #3A5D70;
-}
-.list li{
-    display: inline;
-    margin: 0 1rem;
-}
-.list li a{
-    text-decoration: none;
-    color: #3A5D70;
-    font-size: 13px;
-}
-.list {
-    margin-top: 1rem;
+.list li .link:hover{
+    /* background-color: #4D5245; */
+    background-color: #416079;
+    /* color: white; */
 }
