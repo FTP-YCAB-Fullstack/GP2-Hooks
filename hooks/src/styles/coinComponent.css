@@ -1,10 +1,18 @@
-
+.pembungkus-list{
+  display: flex;
+  justify-content: center ;
+}
 .coin-container {
     display: flex;
     justify-content: center;
+    width: 80%;
+    /* margin-top: 5rem; */
     /* background-color: black; */
   }
-  
+  .pembungkus-coin-container{
+    display: flex;
+    justify-content: center;
+  }
   .coin-row {
     display: flex;
     flex-direction: row;

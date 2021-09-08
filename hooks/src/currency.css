@@ -1,11 +1,12 @@
 .bodyconverter{
-    background-color: #ffffff;
+    background-color: #d3d3d3;
     width: 100%;
-    height: auto;
+    height: 400px;
 }
 .body{
     background-color: #d3d3d3;
 }
+
 .body .titleconvert h1{
     /* display: flex;
     justify-content: center; */
