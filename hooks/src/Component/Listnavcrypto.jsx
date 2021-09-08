@@ -1,12 +1,19 @@
+import '../styles/listcrypto.css'
 
 function ListNavCrypto(){
+    let myDate = new Date()
+    console.log(myDate)
+
     return(
-        <div>
-            <div>
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
+        <div className="bodylistcrypto">
+            <p>{new Date().toString()}</p>
+            <div className="table-crypto">
+                <ul>
+                    <li className="name">Name Crypto</li>
+                    <li className="code">Code</li>
+                    <li className="price">Price Crypto</li>
+                    <li className="market">Market Cap</li>
+                    <li className="pricechange">Price Change</li>
                 </ul>
             </div>
         </div>
