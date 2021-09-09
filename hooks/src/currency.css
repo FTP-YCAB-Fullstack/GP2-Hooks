@@ -9,8 +9,6 @@
 
 .body .titleconvert h1{
     margin: 2rem 0px;
-    /* display: flex;
-    justify-content: center; */
     text-align: center;
 }
 .body .buttonsub{
@@ -84,13 +82,11 @@
     margin: 2px .5rem;
 }
 .body2{
-    /* margin-top: ; */
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* background-color: yellow; */
     align-items: center;
     font-family: sans-serif;
 }

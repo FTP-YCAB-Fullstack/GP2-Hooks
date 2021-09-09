@@ -51,9 +51,9 @@
     color: #416079;
 }
 .titlehome .btn2:hover{
-    background-color: #575fcf;
-    border-color: #575fcf;
-    color: white;
+    background-color: transparent;
+    border-color: #416079;
+    color: #416079;
 }
 svg{
     bottom: 0px;
@@ -61,7 +61,6 @@ svg{
 
 @media (max-width: 1440px) {
     .titlehome{
-        /* background-color: burlywood; */
         width: 70%;
         margin-top: 5rem;
         height: 500px;
@@ -73,15 +72,13 @@ svg{
         font-size: 20px;
     }
     .titlehome .btn1{
-        /* margin-top: 1rem; */
         padding: .5rem .5rem;
     }
     .titlehome .btn2{
         padding: .5rem .5rem;
     }
     .pagehome .titlehome h6{
-     margin-bottom: 1rem;
-        /* font-family: 'Kanit', sans-serif; */
+        margin-bottom: 1rem;
     }
     .image img{
         width: 500px;
