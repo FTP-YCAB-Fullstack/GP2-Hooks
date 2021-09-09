@@ -5,6 +5,8 @@ import BackgroundHome from '../assets/bck1.png'
 import Footer from "../Component/Footer.jsx";
 
 function Home (){
+    let myDate = new Date()
+    console.log(myDate)
     return(
     <div>
         <Navbar/>
