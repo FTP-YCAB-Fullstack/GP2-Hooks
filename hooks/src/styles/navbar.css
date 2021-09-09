@@ -10,7 +10,6 @@
     font-family: 'Kanit', sans-serif;
     margin-top: -.5rem;
     margin-bottom: -.5rem;
-    /* position: fixed; */
 }
 .handle-nav .title{
     margin-left: 2rem;
@@ -32,9 +31,7 @@
 }
 
 .list li .link:hover{
-    /* background-color: #4D5245; */
     background-color: #416079;
-    /* color: white; */
 }
 
 @media (max-width: 1440px) {
