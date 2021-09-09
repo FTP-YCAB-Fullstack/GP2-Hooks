@@ -36,3 +36,63 @@
     background-color: #416079;
     /* color: white; */
 }
+
+@media (max-width: 1440px) {
+    .handle-nav{
+        height: 5rem;
+    }
+    .title a h4{
+        font-size: 30px !important;
+    }
+    .list{
+        margin-right: 2rem;
+    }
+    .list .link{
+        font-size: 25px !important;
+    }
+}
+
+@media (max-width: 720px) {
+    .handle-nav{
+        height: 3rem;
+    }
+    .title a h4{
+        font-size: 20px !important;
+    }
+    .list{
+        margin-right: 1rem;
+    }
+    .list .link{
+        font-size: 15px !important;
+    }
+    .list li .link{
+        text-decoration: none;
+        color: white;
+        padding: 5px 5px;
+        font-size: 15px;
+        border-radius: 2px;
+    }
+}
+
+@media (max-width: 480px) {
+    .handle-nav{
+        height: 2.5rem;
+    }
+    .title a h4{
+        font-size: 15px !important;
+        margin-top: .7rem
+    }
+    .list{
+        margin-right: .5rem;
+    }
+    .list .link{
+        font-size: 10px !important;
+    }
+    .list li .link{
+        text-decoration: none;
+        color: white;
+        padding: 5px 5px;
+        font-size: 15px;
+        border-radius: 2px;
+    }
+}

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Navbar from "../Component/Navbar";
-import '../styles/home.css'
+import '../styles/homebefore.css'
 import BackgroundHome from '../assets/bck1.png'
 import Footer from "../Component/Footer.jsx";
 
