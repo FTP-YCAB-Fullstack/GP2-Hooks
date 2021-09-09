@@ -51,9 +51,9 @@
     color: #416079;
 }
 .titlehome .btn2:hover{
-    background-color: #575fcf;
-    border-color: #575fcf;
-    color: white;
+    background-color: transparent;
+    border-color: #416079;
+    color: #416079;
 }
 svg{
     bottom: 0px;
