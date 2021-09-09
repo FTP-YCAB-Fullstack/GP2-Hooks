@@ -1,0 +1,49 @@
+.bodylistcrypto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+    flex-direction: column;
+}
+.bodylistcrypto p{
+    font-size: 15px;
+    width: 65%;
+    text-align: center;
+}
+.table-crypto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+}
+.table-crypto ul{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    background-color: #2f3640;
+    border: 1px solid none;
+    border-radius: 5px;
+}
+.table-crypto ul .code{
+    margin-left: 1.5rem;
+}
+.table-crypto ul .price{
+    margin-left: 3rem;
+}
+.table-crypto ul .market{
+    margin-left: 3rem;
+}
+.table-crypto ul .pricechange{
+    margin-left: 2rem;
+}
+.table-crypto ul li{
+    list-style: none;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    border-radius: 3px;
+    background-color: #969696;
+    border: 1px solid none;
+    color: white;
+    font-weight: bold;
+}
