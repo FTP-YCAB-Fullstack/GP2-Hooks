@@ -69,3 +69,18 @@
     border-color: #416079;
     color: #416079;
 }
+
+@media(max-width: 780px) {
+    .pagehome{
+        height: 560px ;
+    }
+    .image{
+        margin-top: 3rem;
+        width: 50%;  
+    }
+    .titlehome{
+        margin-left: 1rem;
+        margin-top: 5rem;
+        width: 50%;
+    }
+}
