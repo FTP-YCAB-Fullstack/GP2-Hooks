@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
 .pembungkus-list{
   display: flex;
   justify-content: center ;
 }
 .coin-container {
+  /* color: #1e272e !important; */
     display: flex;
     justify-content: center;
     width: 100%;
@@ -33,7 +36,9 @@
     min-width: 300px;
     padding-left: 1rem;
   }
-  
+  .coin-row .coin-data h1{
+    font-size: 16px;
+  }
   .coin h1 {
     font-size: 16px;
     width: 150px;
@@ -80,4 +85,27 @@
   .green {
     color: #11d811;
   }
-  
+  .note-date{
+    background-color: rgb(143, 143, 143);
+    border: 1px solid none;
+    font-size: 12px;
+    width: 25%;
+    height: 2.5rem;
+    margin-left: 4.2rem;
+    border-radius: 3px;
+  }
+  .note-date p{
+    margin-left: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+  .title-coin{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0px;
+    font-family: 'Kanit', sans-serif;
+  }
+  .title-coin h1{
+    font-weight: bolder;
+  }
