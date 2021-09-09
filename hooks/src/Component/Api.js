@@ -42,6 +42,7 @@ function Api() {
     }
 
     return (
+        <div>
         <div className="bodyconverter">
         <div class="body">
                 <div className="titleconvert">
@@ -90,7 +91,8 @@ function Api() {
                 </div>
         </div>
 
-            <Footer />
+        </div>
+        <Footer />
         </div>
     )
 }
