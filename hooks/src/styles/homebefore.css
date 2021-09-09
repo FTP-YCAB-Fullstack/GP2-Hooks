@@ -63,11 +63,11 @@ svg{
     .titlehome{
         /* background-color: burlywood; */
         width: 70%;
-        margin-top: 10rem;
+        margin-top: 5rem;
         height: 500px;
     }
     .titlehome h1{
-        font-size: 70px;
+        font-size: 60px;
     }
     .titlehome h6{
         font-size: 20px;
@@ -87,7 +87,7 @@ svg{
         width: 500px;
     }
     .image{
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 }
 

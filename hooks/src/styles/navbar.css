@@ -42,13 +42,13 @@
         height: 5rem;
     }
     .title a h4{
-        font-size: 30px !important;
+        font-size: 25px !important;
     }
     .list{
         margin-right: 2rem;
     }
     .list .link{
-        font-size: 25px !important;
+        font-size: 20px !important;
     }
 }
 
